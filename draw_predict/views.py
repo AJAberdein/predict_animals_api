@@ -30,11 +30,13 @@ from django.views.decorators.csrf import csrf_exempt
 
 
 
+
+
 @csrf_exempt
 def getclass(request):
 
 
-    classes = [
+    animal_classes = [
                   'ant',
                   'bear',
                   'bee',
@@ -63,16 +65,9 @@ def getclass(request):
                ]
 
 
-
-
     response_data = {}
-    response_data['class'] = choice(classes)
-
+    response_data['class'] = choice(animal_classes)
     return JsonResponse(response_data)
-
-
-
-
 
 @csrf_exempt
 def index(request):
@@ -80,8 +75,6 @@ def index(request):
 
 
     # print(json_data['prediction'])
-
-
 
 
 
