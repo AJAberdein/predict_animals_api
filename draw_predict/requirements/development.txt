@@ -114,7 +114,7 @@ numpydoc==0.6.0
 nvidia-ml-py3==7.352.0
 odo==0.5.0
 olefile==0.44
-opencv-python==3.4.4.19
+opencv-python==3.4.7.28
 openpyxl==2.4.7
 packaging==16.8
 pandas==0.23.4
