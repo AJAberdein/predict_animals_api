@@ -87,7 +87,7 @@ kaggle-cli==0.12.13
 lazy-object-proxy==1.2.2
 llvmlite==0.26.0
 locket==0.2.0
-lxml==4.0.0
+lxml==4.9.1
 Markdown==3.0
 MarkupSafe==0.23
 matplotlib==2.1.2
